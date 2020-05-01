@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+@font-face { font-family: 'S-CoreDream-9Black'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-9Black.woff') format('woff'); font-weight: normal; font-style: normal; }
+@font-face { font-family: 'locus_sangsang'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/locus_sangsang.woff') format('woff'); font-weight: normal; font-style: normal; }
+
+h1, h2, h3, h4, .navbar-brand {
+	font-family: 'S-CoreDream-9Black', sans-serif;
+	color: #015798;
+}
+
+body {
+	font-family: 'locus_sangsang';
+	background-color: #B3E5FC;
+}
+
+.navbar {
+	border-bottom: #039BE5 3px solid;
+}
+
+#home {
+	width: 100%;
+	height: 40px;
+	display: block;
+	border: 3px solid red;
+	font-size: 50px;
+}
